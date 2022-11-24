@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: rgb(75, 72, 72);
+    color: #fff;
+    padding: 30px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #b3d9f8;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.converter-row {
+    display: flex;
+    width: 70%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgb(88, 88, 88);
+    border-radius: 10px;
+    padding: 20px 20px;
+    padding-bottom: 50px;
+}
+
+.col {
+    display: block;
+    margin-top: 50px;
+}
+
+.col label {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.col input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ==============Footer CSS================ */
+footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fcfcfc;
+    font-family: sans-serif;
+    background: #111;
+   }
+  
+   .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+  }
+  
+  .footer-content{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    box-direction: column;
+    text-align: center;
+  }
+  
+  .footer-content p{
+    max-width: 100% auto;
+    margin: 10px auto;
+    line-height: auto;
+    font-size: 18px;
+    color: #cacdd2;
+  }
+  
+  .socials{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem 1rem 1rem 0;
+  }
+  
+  .socials li{
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+    align-items: center;
+  }
+  
+  .socials a i{
+    font-size: 1rem;
+    width: 20px;
+    transition: color .4s ease;
+    align-items: center;
+  }
+  
+  .socials a:hover i{
+    color: aqua;
+  }
